@@ -1,1 +1,347 @@
-ZW5fR0ItaXplIEh1bnNwZWxsIERpY3Rpb25hcnkKVmVyc2lvbiAyMDIwLjEyLjA3Ck1vbiBEZWMgNyAyMDoxNDozNSAyMDIwIC0wNTAwIFs1ZWY1NWY5XQpodHRwOi8vd29yZGxpc3Quc291cmNlZm9yZ2UubmV0CgpSRUFETUUgZmlsZSBmb3IgRW5nbGlzaCBIdW5zcGVsbCBkaWN0aW9uYXJpZXMgZGVyaXZlZCBmcm9tIFNDT1dMLgoKVGhlc2UgZGljdGlvbmFyaWVzIGFyZSBjcmVhdGVkIHVzaW5nIHRoZSBzcGVsbGVyL21ha2UtaHVuc3BlbGwtZGljdApzY3JpcHQgaW4gU0NPV0wuCgpUaGUgZm9sbG93aW5nIGRpY3Rpb25hcmllcyBhcmUgYXZhaWxhYmxlOgoKICBlbl9VUyAoQW1lcmljYW4pCiAgZW5fQ0EgKENhbmFkaWFuKQogIGVuX0dCLWlzZSAoQnJpdGlzaCB3aXRoICJpc2UiIHNwZWxsaW5nKQogIGVuX0dCLWl6ZSAoQnJpdGlzaCB3aXRoICJpemUiIHNwZWxsaW5nKQogIGVuX0FVIChBdXN0cmFsaWFuKQoKICBlbl9VUy1sYXJnZQogIGVuX0NBLWxhcmdlCiAgZW5fR0ItbGFyZ2UgKHdpdGggYm90aCAiaXNlIiBhbmQgIml6ZSIgc3BlbGxpbmcpCiAgZW5fQVUtbGFyZ2UKClRoZSBub3JtYWwgKG5vbi1sYXJnZSkgZGljdGlvbmFyaWVzIGNvcnJlc3BvbmQgdG8gU0NPV0wgc2l6ZSA2MCBhbmQsCnRvIGVuY291cmFnZSBjb25zaXN0ZW50IHNwZWxsaW5nLCBnZW5lcmFsbHkgb25seSBpbmNsdWRlIG9uZSBzcGVsbGluZwp2YXJpYW50IGZvciBhIHdvcmQuICBUaGUgbGFyZ2UgZGljdGlvbmFyaWVzIGNvcnJlc3BvbmQgdG8gU0NPV0wgc2l6ZQo3MCBhbmQgbWF5IGluY2x1ZGUgbXVsdGlwbGUgc3BlbGxpbmcgZm9yIGEgd29yZCB3aGVuIGJvdGggdmFyaWFudHMgYXJlCmNvbnNpZGVyZWQgYWxtb3N0IGVxdWFsLiAgVGhlIGxhcmdlciBkaWN0aW9uYXJpZXMgaG93ZXZlciAoMSkgaGF2ZSBub3QKYmVlbiBhcyBjYXJlZnVsbHkgY2hlY2tlZCBmb3IgZXJyb3JzIGFzIHRoZSBub3JtYWwgZGljdGlvbmFyaWVzIGFuZAp0aHVzIG1heSBjb250YWluIG1pc3NwZWxsZWQgb3IgaW52YWxpZCB3b3JkczsgYW5kICgyKSBjb250YWluCnVuY29tbW9uLCB5ZXQgdmFsaWQsIHdvcmRzIHRoYXQgbWlnaHQgY2F1c2UgcHJvYmxlbXMgYXMgdGhleSBhcmUKbGlrZWx5IHRvIGJlIG1pc3NwZWxsaW5ncyBvZiBtb3JlIGNvbW1vbiB3b3JkcyAoZm9yIGV4YW1wbGUsICJvcnQiIGFuZAoiY2FsZW5kZXIiKS4KClRvIGdldCBhbiBpZGVhIG9mIHRoZSBkaWZmZXJlbmNlIGluIHNpemUsIGhlcmUgYXJlIDI1IHJhbmRvbSB3b3Jkcwpvbmx5IGZvdW5kIGluIHRoZSBsYXJnZSBkaWN0aW9uYXJ5IGZvciBBbWVyaWNhbiBFbmdsaXNoOgoKICBCZXJtZWpvIEZyZXlyJ3MgR3VlbmV2ZXJlIEhhdHNoZXBzdXQgTm90dGluZ2hhbXNoaXJlIGFycmVzdG1lbnQKICBjcmFzc2l0dWRlcyBjcnVyYWwgZG9nd2F0Y2hlcyBlcnJvcmxlc3MgZmV0aWFsIGZsYXhzZWVkcyBnb2Ryb29uCiAgaW5jcmV0aW9uIGphbGFwZcOxbydzIGtlbHBpZSBraXNoa2VzIG5ldXJvZ2xpYXMgcGlldGlzbXMgcHVsbHVsYXRpb24KICBzdGVtd2luZGVyIHN0ZW5vc2VzIHN5Y2UgdGhhbGFzc2ljIHplZXMKClRoZSBlbl9VUywgZW5fQ0EgYW5kIGVuX0FVIGFyZSB0aGUgb2ZmaWNpYWwgZGljdGlvbmFyaWVzIGZvciBIdW5zcGVsbC4KVGhlIGVuX0dCIGFuZCBsYXJnZSBkaWN0aW9uYXJpZXMgYXJlIG1hZGUgYXZhaWxhYmxlIG9uIGFuIGV4cGVyaW1lbnRhbApiYXNpcy4gIElmIHlvdSBmaW5kIHRoZW0gdXNlZnVsIHBsZWFzZSBzZW5kIG1lIGEgcXVpY2sgZW1haWwgYXQKa2V2aW5hQGdudS5vcmcuCgpJZiBub25lIG9mIHRoZXNlIGRpY3Rpb25hcmllcyBzdWl0ZSB5b3UgKGZvciBleGFtcGxlLCBtYXliZSB5b3Ugd2FudAp0aGUgbm9ybWFsIGRpY3Rpb25hcnkgdGhhdCBhbHNvIGluY2x1ZGVzIGNvbW1vbiB2YXJpYW50cykgYWRkaXRpb25hbApkaWN0aW9uYXJpZXMgY2FuIGJlIGdlbmVyYXRlZCBhdCBodHRwOi8vYXBwLmFzcGVsbC5uZXQvY3JlYXRlIG9yIGJ5Cm1vZGlmeWluZyBzcGVsbGVyL21ha2UtaHVuc3BlbGwtZGljdCBpbiBTQ09XTC4gIFBsZWFzZSBkbyBsZXQgbWUga25vdwppZiB5b3UgZW5kIHVwIHB1Ymxpc2hpbmcgYSBjdXN0b21pemVkIGRpY3Rpb25hcnkuCgpJZiBhIHdvcmQgaXMgbm90IGZvdW5kIGluIHRoZSBkaWN0aW9uYXJ5IG9yIGEgd29yZCBpcyB0aGVyZSB5b3UgdGhpbmsKc2hvdWxkbid0IGJlLCB5b3UgY2FuIGxvb2t1cCB0aGUgd29yZCB1cCBhdCBodHRwOi8vYXBwLmFzcGVsbC5uZXQvbG9va3VwCnRvIGhlbHAgZGV0ZXJtaW5lIHdoeSB0aGF0IGlzLgoKR2VuZXJhbCBjb21tZW50cyBvbiB0aGVzZSBsaXN0IGNhbiBiZSBzZW50IGRpcmVjdGx5IHRvIG1lIGF0CmtldmluYUBnbnUub3JnIG9yIHRvIHRoZSB3b3JkbGlzdC1kZXZlbCBtYWlsaW5nIGxpc3RzCihodHRwczovL2xpc3RzLnNvdXJjZWZvcmdlLm5ldC9saXN0cy9saXN0aW5mby93b3JkbGlzdC1kZXZlbCkuICBJZiB5b3UKaGF2ZSBzcGVjaWZpYyBpc3N1ZXMgd2l0aCBhbnkgb2YgdGhlc2UgZGljdGlvbmFyaWVzIHBsZWFzZSBmaWxlIGEgYnVnCnJlcG9ydCBhdCBodHRwczovL2dpdGh1Yi5jb20va2V2aW5hL3dvcmRsaXN0L2lzc3Vlcy4KCklNUE9SVEFOVCBDSEFOR0VTIElOVFJPRFVDRUQgSW4gMjAxNi4xMS4yMDoKCk5ldyBBdXN0cmFsaWFuIGRpY3Rpb25hcmllcyB0aGFua3MgdG8gdGhlIHdvcmsgb2YgQmVuamFtaW4gVGl0emUKKGJ0aXR6ZUBwcm90b25tYWlsLmNoKS4KCklNUE9SVEFOVCBDSEFOR0VTIElOVFJPRFVDRUQgSU4gMjAxNi4wNC4yNDoKClRoZSBkaWN0aW9uYXJpZXMgYXJlIG5vdyBpbiBVVEYtOCBmb3JtYXQgaW5zdGVhZCBvZiBJU08tODg1OS0xLiAgVGhpcwp3YXMgcmVxdWlyZWQgdG8gaGFuZGxlIHNtYXJ0IHF1b3RlcyBjb3JyZWN0bHkuCgpJTVBPUlRBTlQgQ0hBTkdFUyBJTlRST0RVQ0VEIElOIDIwMTYuMDEuMTk6CgoiU0VUIFVURjgiIHdhcyBjaGFuZ2VzIHRvICJTRVQgVVRGLTgiIGluIHRoZSBhZmZpeCBmaWxlIGFzIHNvbWUKdmVyc2lvbnMgb2YgSHVuc3BlbGwgZG8gbm90IHJlY29nbml6ZSAiVVRGOCIuCgpBRERJVElPTkFMIE5PVEVTOgoKVGhlIE5PU1VHR0VTVCBmbGFnIHdhcyBhZGRlZCB0byBjZXJ0YWluIHRhYm9vIHdvcmRzLiAgV2hpbGUgSSBtYWRlIGFuCmhvbmVzdCBhdHRlbXB0IHRvIGZsYWcgdGhlIHN0cm9uZ2VzdCB0YWJvbyB3b3JkcyB3aXRoIHRoZSBOT1NVR0dFU1QKZmxhZywgSSBNQUtFIE5PIEdVQVJBTlRFRSBUSEFUIEkgRkxBR0dFRCBFVkVSWSBQT1NTSUJMRSBUQUJPTyBXT1JELgpUaGUgbGlzdCB3YXMgb3JpZ2luYWxseSBkZXJpdmVkIGZyb20gTsOpbWV0aCBMw6FzemzDsywgaG93ZXZlciBJIHJlbW92ZWQKc29tZSB3b3JkcyB3aGljaCwgd2hpbGUgYmVpbmcgY29uc2lkZXJlZCB0YWJvbyBieSBzb21lIGRpY3Rpb25hcmllcywKYXJlIG5vdCByZWFsbHkgY29uc2lkZXJlZCBzd2VhciB3b3JkcyBpbiB0b2RheSdzIHNvY2lldHkuCgpDT1BZUklHSFQsIFNPVVJDRVMsIGFuZCBDUkVESVRTOgoKVGhlIEVuZ2xpc2ggZGljdGlvbmFyaWVzIGNvbWUgZGlyZWN0bHkgZnJvbSBTQ09XTCAKYW5kIGlzIHRodXMgdW5kZXIgdGhlIHNhbWUgY29weXJpZ2h0IG9mIFNDT1dMLiAgVGhlIGFmZml4IGZpbGUgaXMKYSBoZWF2aWx5IG1vZGlmaWVkIHZlcnNpb24gb2YgdGhlIG9yaWdpbmFsIGVuZ2xpc2guYWZmIGZpbGUgd2hpY2ggd2FzCnJlbGVhc2VkIGFzIHBhcnQgb2YgR2VvZmYgS3Vlbm5pbmcncyBJc3BlbGwgYW5kIGFzIHN1Y2ggaXMgY292ZXJlZCBieQpoaXMgQlNEIGxpY2Vuc2UuICBQYXJ0IG9mIFNDT1dMIGlzIGFsc28gYmFzZWQgb24gSXNwZWxsIHRodXMgdGhlCklzcGVsbCBjb3B5cmlnaHQgaXMgaW5jbHVkZWQgd2l0aCB0aGUgU0NPV0wgY29weXJpZ2h0LgoKVGhlIGNvbGxlY3RpdmUgd29yayBpcyBDb3B5cmlnaHQgMjAwMC0yMDE4IGJ5IEtldmluIEF0a2luc29uIGFzIHdlbGwKYXMgYW55IG9mIHRoZSBjb3B5cmlnaHRzIG1lbnRpb25lZCBiZWxvdzoKCiAgQ29weXJpZ2h0IDIwMDAtMjAxOCBieSBLZXZpbiBBdGtpbnNvbgoKICBQZXJtaXNzaW9uIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBkaXN0cmlidXRlIGFuZCBzZWxsIHRoZXNlIHdvcmQKICBsaXN0cywgdGhlIGFzc29jaWF0ZWQgc2NyaXB0cywgdGhlIG91dHB1dCBjcmVhdGVkIGZyb20gdGhlIHNjcmlwdHMsCiAgYW5kIGl0cyBkb2N1bWVudGF0aW9uIGZvciBhbnkgcHVycG9zZSBpcyBoZXJlYnkgZ3JhbnRlZCB3aXRob3V0IGZlZSwKICBwcm92aWRlZCB0aGF0IHRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFwcGVhcnMgaW4gYWxsIGNvcGllcyBhbmQKICB0aGF0IGJvdGggdGhhdCBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIGFwcGVhciBpbgogIHN1cHBvcnRpbmcgZG9jdW1lbnRhdGlvbi4gS2V2aW4gQXRraW5zb24gbWFrZXMgbm8gcmVwcmVzZW50YXRpb25zCiAgYWJvdXQgdGhlIHN1aXRhYmlsaXR5IG9mIHRoaXMgYXJyYXkgZm9yIGFueSBwdXJwb3NlLiBJdCBpcyBwcm92aWRlZAogICJhcyBpcyIgd2l0aG91dCBleHByZXNzIG9yIGltcGxpZWQgd2FycmFudHkuCgpBbGFuIEJlYWxlIDxiaWxqaXJAcG9ib3guY29tPiBhbHNvIGRlc2VydmVzIHNwZWNpYWwgY3JlZGl0IGFzIGhlIGhhcywKaW4gYWRkaXRpb24gdG8gcHJvdmlkaW5nIHRoZSAxMkRpY3RzIHBhY2thZ2UgYW5kIGJlaW5nIGEgbWFqb3IKY29udHJpYnV0b3IgdG8gdGhlIEVOQUJMRSB3b3JkIGxpc3QsIGdpdmVuIG1lIGFuIGluY3JlZGlibGUgYW1vdW50IG9mCmZlZWRiYWNrIGFuZCBjcmVhdGVkIGEgbnVtYmVyIG9mIHNwZWNpYWwgbGlzdHMgKHRob3NlIGZvdW5kIGluIHRoZQpTdXBwbGVtZW50KSBpbiBvcmRlciB0byBoZWxwIGltcHJvdmUgdGhlIG92ZXJhbGwgcXVhbGl0eSBvZiBTQ09XTC4KClRoZSAxMCBsZXZlbCBpbmNsdWRlcyB0aGUgMTAwMCBtb3N0IGNvbW1vbiBFbmdsaXNoIHdvcmRzIChhY2NvcmRpbmcgdG8KdGhlIE1vYnkgKFRNKSBXb3JkcyBJSSBbTVdvcmRzXSBwYWNrYWdlKSwgYSBzdWJzZXQgb2YgdGhlIDEwMDAgbW9zdApjb21tb24gd29yZHMgb24gdGhlIEludGVybmV0IChhZ2FpbiwgYWNjb3JkaW5nIHRvIE1vYnkgV29yZHMgSUkpLCBhbmQKZnJlcXVlbnRseSBjbGFzcyAxNiBmcm9tIEJyaWFuIEtlbGsncyAiVUsgRW5nbGlzaCBXb3JkbGlzdAp3aXRoIEZyZXF1ZW5jeSBDbGFzc2lmaWNhdGlvbiIuCgpUaGUgTVdvcmRzIHBhY2thZ2Ugd2FzIGV4cGxpY2l0bHkgcGxhY2VkIGluIHRoZSBwdWJsaWMgZG9tYWluOgoKICAgIFRoZSBNb2J5IGxleGljb24gcHJvamVjdCBpcyBjb21wbGV0ZSBhbmQgaGFzCiAgICBiZWVuIHBsYWNlIGludG8gdGhlIHB1YmxpYyBkb21haW4uIFVzZSwgc2VsbCwKICAgIHJld29yaywgZXhjZXJwdCBhbmQgdXNlIGluIGFueSB3YXkgb24gYW55IHBsYXRmb3JtLgoKICAgIFBsYWNpbmcgdGhpcyBtYXRlcmlhbCBvbiBpbnRlcm5hbCBvciBwdWJsaWMgc2VydmVycyBpcwogICAgYWxzbyBlbmNvdXJhZ2VkLiBUaGUgY29tcGlsZXIgaXMgbm90IGF3YXJlIG9mIGFueQogICAgZXhwb3J0IHJlc3RyaWN0aW9ucyBzbyBmcmVlbHkgZGlzdHJpYnV0ZSB3b3JsZC13aWRlLgoKICAgIFlvdSBjYW4gdmVyaWZ5IHRoZSBwdWJsaWMgZG9tYWluIHN0YXR1cyBieSBjb250YWN0aW5nCgogICAgR3JhZHkgV2FyZAogICAgMzQ0OSBNYXJ0aGEgQ3QuCiAgICBBcmNhdGEsIENBICA5NTUyMS00ODg0CgogICAgZ3JhZHlAbmV0Y29tLmNvbQogICAgZ3JhZHlAbm9ydGhjb2FzdC5jb20KClRoZSAiVUsgRW5nbGlzaCBXb3JkbGlzdCBXaXRoIEZyZXF1ZW5jeSBDbGFzc2lmaWNhdGlvbiIgaXMgYWxzbyBpbiB0aGUKUHVibGljIERvbWFpbjoKCiAgRGF0ZTogU2F0LCAwOCBKdWwgMjAwMCAyMDoyNzoyMSArMDEwMAogIEZyb206IEJyaWFuIEtlbGsgPEJyaWFuLktlbGtAY2wuY2FtLmFjLnVrPgoKICA+IEkgd2FzIHdvbmRlcmluZyB3aGF0IHRoZSBjb3B5cmlnaHQgc3RhdHVzIG9mIHlvdXIgIlVLIEVuZ2xpc2gKICA+IFdvcmRsaXN0IFdpdGggRnJlcXVlbmN5IENsYXNzaWZpY2F0aW9uIiB3b3JkIGxpc3QgYXMgaXQgc2VlbXMgdG8KICA+IGJlIGxhY2tpbmcgYW55IGNvcHlyaWdodCBub3RpY2UuCgogIFRoZXJlIHdlcmUgbWFueSBtYW55IHNvdXJjZXMgaW4gdG90YWwsIGJ1dCBhbnkgdGV4dCBtYXJrZWQKICAiY29weXJpZ2h0IiB3YXMgYXZvaWRlZC4gTG9jYWxseS13cml0dGVuIGRvY3VtZW50YXRpb24gd2FzIG9uZQogIHNvdXJjZS4gQW4gZWFybGllciB2ZXJzaW9uIG9mIHRoZSBsaXN0IHJlc2lkZWQgaW4gYSBmaWxlc3BhY2UgY2FsbGVkCiAgUFVCTElDIG9uIHRoZSBVbml2ZXJzaXR5IG1haW5mcmFtZSwgYmVjYXVzZSBpdCB3YXMgY29uc2lkZXJlZCBwdWJsaWMKICBkb21haW4uCgogIERhdGU6IFR1ZSwgMTEgSnVsIDIwMDAgMTk6MzE6MzQgKzAxMDAKCiAgPiBTbyBhcmUgeW91IHNheWluZyB5b3VyIHdvcmQgbGlzdCBpcyBhbHNvIGluIHRoZSBwdWJsaWMgZG9tYWluPwoKICBUaGF0IGlzIHRoZSBpbnRlbnRpb24uCgpUaGUgMjAgbGV2ZWwgaW5jbHVkZXMgZnJlcXVlbmN5IGNsYXNzZXMgNy0xNSBmcm9tIEJyaWFuJ3Mgd29yZCBsaXN0LgoKVGhlIDM1IGxldmVsIGluY2x1ZGVzIGZyZXF1ZW5jeSBjbGFzc2VzIDItNiBhbmQgd29yZHMgYXBwZWFyaW5nIGluIGF0CmxlYXN0IDExIG9mIDEyIGRpY3Rpb25hcmllcyBhcyBpbmRpY2F0ZWQgaW4gdGhlIDEyRGljdHMgcGFja2FnZS4gIEFsbAp3b3JkcyBmcm9tIHRoZSAxMkRpY3RzIHBhY2thZ2UgaGF2ZSBoYWQgbGlrZWx5IGluZmxlY3Rpb25zIGFkZGVkIHZpYQpteSBpbmZsZWN0aW9uIGRhdGFiYXNlLgoKVGhlIDEyRGljdHMgcGFja2FnZSBhbmQgU3VwcGxlbWVudCBpcyBpbiB0aGUgUHVibGljIERvbWFpbi4KClRoZSBXb3JkTmV0IGRhdGFiYXNlLCB3aGljaCB3YXMgdXNlZCBpbiB0aGUgY3JlYXRpb24gb2YgdGhlCkluZmxlY3Rpb25zIGRhdGFiYXNlLCBpcyB1bmRlciB0aGUgZm9sbG93aW5nIGNvcHlyaWdodDoKCiAgVGhpcyBzb2Z0d2FyZSBhbmQgZGF0YWJhc2UgaXMgYmVpbmcgcHJvdmlkZWQgdG8geW91LCB0aGUgTElDRU5TRUUsCiAgYnkgUHJpbmNldG9uIFVuaXZlcnNpdHkgdW5kZXIgdGhlIGZvbGxvd2luZyBsaWNlbnNlLiAgQnkgb2J0YWluaW5nLAogIHVzaW5nIGFuZC9vciBjb3B5aW5nIHRoaXMgc29mdHdhcmUgYW5kIGRhdGFiYXNlLCB5b3UgYWdyZWUgdGhhdCB5b3UKICBoYXZlIHJlYWQsIHVuZGVyc3Rvb2QsIGFuZCB3aWxsIGNvbXBseSB3aXRoIHRoZXNlIHRlcm1zIGFuZAogIGNvbmRpdGlvbnMuOgoKICBQZXJtaXNzaW9uIHRvIHVzZSwgY29weSwgbW9kaWZ5IGFuZCBkaXN0cmlidXRlIHRoaXMgc29mdHdhcmUgYW5kCiAgZGF0YWJhc2UgYW5kIGl0cyBkb2N1bWVudGF0aW9uIGZvciBhbnkgcHVycG9zZSBhbmQgd2l0aG91dCBmZWUgb3IKICByb3lhbHR5IGlzIGhlcmVieSBncmFudGVkLCBwcm92aWRlZCB0aGF0IHlvdSBhZ3JlZSB0byBjb21wbHkgd2l0aAogIHRoZSBmb2xsb3dpbmcgY29weXJpZ2h0IG5vdGljZSBhbmQgc3RhdGVtZW50cywgaW5jbHVkaW5nIHRoZQogIGRpc2NsYWltZXIsIGFuZCB0aGF0IHRoZSBzYW1lIGFwcGVhciBvbiBBTEwgY29waWVzIG9mIHRoZSBzb2Z0d2FyZSwKICBkYXRhYmFzZSBhbmQgZG9jdW1lbnRhdGlvbiwgaW5jbHVkaW5nIG1vZGlmaWNhdGlvbnMgdGhhdCB5b3UgbWFrZQogIGZvciBpbnRlcm5hbCB1c2Ugb3IgZm9yIGRpc3RyaWJ1dGlvbi4KCiAgV29yZE5ldCAxLjYgQ29weXJpZ2h0IDE5OTcgYnkgUHJpbmNldG9uIFVuaXZlcnNpdHkuICBBbGwgcmlnaHRzCiAgcmVzZXJ2ZWQuCgogIFRISVMgU09GVFdBUkUgQU5EIERBVEFCQVNFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFBSSU5DRVRPTgogIFVOSVZFUlNJVFkgTUFLRVMgTk8gUkVQUkVTRU5UQVRJT05TIE9SIFdBUlJBTlRJRVMsIEVYUFJFU1MgT1IKICBJTVBMSUVELiAgQlkgV0FZIE9GIEVYQU1QTEUsIEJVVCBOT1QgTElNSVRBVElPTiwgUFJJTkNFVE9OCiAgVU5JVkVSU0lUWSBNQUtFUyBOTyBSRVBSRVNFTlRBVElPTlMgT1IgV0FSUkFOVElFUyBPRiBNRVJDSEFOVC0KICBBQklMSVRZIE9SIEZJVE5FU1MgRk9SIEFOWSBQQVJUSUNVTEFSIFBVUlBPU0UgT1IgVEhBVCBUSEUgVVNFIE9GIFRIRQogIExJQ0VOU0VEIFNPRlRXQVJFLCBEQVRBQkFTRSBPUiBET0NVTUVOVEFUSU9OIFdJTEwgTk9UIElORlJJTkdFIEFOWQogIFRISVJEIFBBUlRZIFBBVEVOVFMsIENPUFlSSUdIVFMsIFRSQURFTUFSS1MgT1IgT1RIRVIgUklHSFRTLgoKICBUaGUgbmFtZSBvZiBQcmluY2V0b24gVW5pdmVyc2l0eSBvciBQcmluY2V0b24gbWF5IG5vdCBiZSB1c2VkIGluCiAgYWR2ZXJ0aXNpbmcgb3IgcHVibGljaXR5IHBlcnRhaW5pbmcgdG8gZGlzdHJpYnV0aW9uIG9mIHRoZSBzb2Z0d2FyZQogIGFuZC9vciBkYXRhYmFzZS4gIFRpdGxlIHRvIGNvcHlyaWdodCBpbiB0aGlzIHNvZnR3YXJlLCBkYXRhYmFzZSBhbmQKICBhbnkgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uIHNoYWxsIGF0IGFsbCB0aW1lcyByZW1haW4gd2l0aAogIFByaW5jZXRvbiBVbml2ZXJzaXR5IGFuZCBMSUNFTlNFRSBhZ3JlZXMgdG8gcHJlc2VydmUgc2FtZS4KClRoZSA0MCBsZXZlbCBpbmNsdWRlcyB3b3JkcyBmcm9tIEFsYW4ncyAzZXNsIGxpc3QgZm91bmQgaW4gdmVyc2lvbiA0LjAKb2YgaGlzIDEyZGljdHMgcGFja2FnZS4gIExpa2UgaGlzIG90aGVyIHN0dWZmIHRoZSAzZXNsIGxpc3QgaXMgYWxzbyBpbiB0aGUKcHVibGljIGRvbWFpbi4KClRoZSA1MCBsZXZlbCBpbmNsdWRlcyBCcmlhbidzIGZyZXF1ZW5jeSBjbGFzcyAxLCB3b3JkcyBhcHBlYXJpbmcKaW4gYXQgbGVhc3QgNSBvZiAxMiBvZiB0aGUgZGljdGlvbmFyaWVzIGFzIGluZGljYXRlZCBpbiB0aGUgMTJEaWN0cwpwYWNrYWdlLCBhbmQgdXBwZXJjYXNlIHdvcmRzIGluIGF0IGxlYXN0IDQgb2YgdGhlIHByZXZpb3VzIDEyCmRpY3Rpb25hcmllcy4gIEEgZGVjZW50IG51bWJlciBvZiBwcm9wZXIgbmFtZXMgaXMgYWxzbyBpbmNsdWRlZDogVGhlCnRvcCAxMDAwIG1hbGUsIGZlbWFsZSwgYW5kIExhc3QgbmFtZXMgZnJvbSB0aGUgMTk5MCBDZW5zdXMgcmVwb3J0OyBhCmxpc3Qgb2YgbmFtZXMgc2VudCB0byBtZSBieSBBbGFuIEJlYWxlOyBhbmQgYSBmZXcgbmFtZXMgdGhhdCBJIGFkZGVkCm15c2VsZi4gIEZpbmFsbHkgYSBzbWFsbCBsaXN0IG9mIGFiYnJldmlhdGlvbnMgbm90IGNvbW1vbmx5IGZvdW5kIGluCm90aGVyIHdvcmQgbGlzdHMgaXMgaW5jbHVkZWQuCgpUaGUgbmFtZSBmaWxlcyBmb3JtIHRoZSBDZW5zdXMgcmVwb3J0IGlzIGEgZ292ZXJubWVudCBkb2N1bWVudCB3aGljaCBJCmRvbid0IHRoaW5rIGNhbiBiZSBjb3B5cmlnaHRlZC4KClRoZSBmaWxlIHNwZWNpYWwtamFyZ29uLjUwIHVzZXMgY29tbW9uLmxzdCBhbmQgd29yZC5sc3QgZnJvbSB0aGUKIlVub2ZmaWNpYWwgSmFyZ29uIEZpbGUgV29yZCBMaXN0cyIgd2hpY2ggaXMgZGVyaXZlZCBmcm9tICJUaGUgSmFyZ29uCkZpbGUiLiAgQWxsIG9mIHdoaWNoIGlzIGluIHRoZSBQdWJsaWMgRG9tYWluLiAgVGhpcyBmaWxlIGFsc28gY29udGFpbgphIGZldyBleHRyYSBVTklYIHRlcm1zIHdoaWNoIGFyZSBmb3VuZCBpbiB0aGUgZmlsZSAidW5peC10ZXJtcyIgaW4gdGhlCnNwZWNpYWwvIGRpcmVjdG9yeS4KClRoZSA1NSBsZXZlbCBpbmNsdWRlcyB3b3JkcyBmcm9tIEFsYW4ncyAyb2Y0YnJpZiBsaXN0IGZvdW5kIGluIHZlcnNpb24KNC4wIG9mIGhpcyAxMmRpY3RzIHBhY2thZ2UuICBMaWtlIGhpcyBvdGhlciBzdHVmZiB0aGUgMm9mNGJyaWYgaXMgYWxzbwppbiB0aGUgcHVibGljIGRvbWFpbi4KClRoZSA2MCBsZXZlbCBpbmNsdWRlcyBhbGwgd29yZHMgYXBwZWFyaW5nIGluIGF0IGxlYXN0IDIgb2YgdGhlIDEyCmRpY3Rpb25hcmllcyBhcyBpbmRpY2F0ZWQgYnkgdGhlIDEyRGljdHMgcGFja2FnZS4KClRoZSA3MCBsZXZlbCBpbmNsdWRlcyBCcmlhbidzIGZyZXF1ZW5jeSBjbGFzcyAwIGFuZCB0aGUgNzQsNTUwIGNvbW1vbgpkaWN0aW9uYXJ5IHdvcmRzIGZyb20gdGhlIE1Xb3JkcyBwYWNrYWdlLiAgVGhlIGNvbW1vbiBkaWN0aW9uYXJ5IHdvcmRzLApsaWtlIHRob3NlIGZyb20gdGhlIDEyRGljdHMgcGFja2FnZSwgaGF2ZSBoYWQgYWxsIGxpa2VseSBpbmZsZWN0aW9ucwphZGRlZC4gIFRoZSA3MCBsZXZlbCBhbHNvIGluY2x1ZGVkIHRoZSA1ZGVzayBsaXN0IGZyb20gdmVyc2lvbiA0LjAgb2YKdGhlIDEyRGljcyBwYWNrYWdlIHdoaWNoIGlzIGluIHRoZSBwdWJsaWMgZG9tYWluLgoKVGhlIDgwIGxldmVsIGluY2x1ZGVzIHRoZSBFTkFCTEUgd29yZCBsaXN0LCBhbGwgdGhlIGxpc3RzIGluIHRoZQpFTkFCTEUgc3VwcGxlbWVudCBwYWNrYWdlIChleGNlcHQgZm9yIEFCTEUpLCB0aGUgIlVLIEFkdmFuY2VkIENyeXB0aWNzCkRpY3Rpb25hcnkiIChVS0FDRCksIHRoZSBsaXN0IG9mIHNpZ25hdHVyZSB3b3JkcyBmcm9tIHRoZSBZQVdMIHBhY2thZ2UsCmFuZCB0aGUgMTAsMTk2IHBsYWNlcyBsaXN0IGZyb20gdGhlIE1Xb3JkcyBwYWNrYWdlLgoKVGhlIEVOQUJMRSBwYWNrYWdlLCBtYWludGVkIGJ5IE1cQ29vcGVyIDx0aGVncmVuZGVsQHRoZXJpdmVyLmNvbT4sCmlzIGluIHRoZSBQdWJsaWMgRG9tYWluOgoKICBUaGUgRU5BQkxFIG1hc3RlciB3b3JkIGxpc3QsIFdPUkQuTFNULCBpcyBoZXJld2l0aCBmb3JtYWxseSByZWxlYXNlZAogIGludG8gdGhlIFB1YmxpYyBEb21haW4uIEFueW9uZSBpcyBmcmVlIHRvIHVzZSBpdCBvciBkaXN0cmlidXRlIGl0IGluCiAgYW55IG1hbm5lciB0aGV5IHNlZSBmaXQuIE5vIGZlZSBvciByZWdpc3RyYXRpb24gaXMgcmVxdWlyZWQgZm9yIGl0cwogIHVzZSBub3IgYXJlICJjb250cmlidXRpb25zIiBzb2xpY2l0ZWQgKGlmIHlvdSBmZWVsIHlvdSBhYnNvbHV0ZWx5CiAgbXVzdCBjb250cmlidXRlIHNvbWV0aGluZyBmb3IgeW91ciBvd24gcGVhY2Ugb2YgbWluZCwgdGhlIGF1dGhvcnMgb2YKICB0aGUgRU5BQkxFIGxpc3QgYXNrIHRoYXQgeW91IG1ha2UgYSBkb25hdGlvbiBvbiB0aGVpciBiZWhhbGYgdG8geW91cgogIGZhdm9yaXRlIGNoYXJpdHkpLiBUaGlzIHdvcmQgbGlzdCBpcyBvdXIgZ2lmdCB0byB0aGUgU2NyYWJibGUKICBjb21tdW5pdHksIGFzIGFuIGFsdGVybmF0ZSB0byAib2ZmaWNpYWwiIHdvcmQgbGlzdHMuIEdhbWUgZGVzaWduZXJzCiAgbWF5IGZlZWwgZnJlZSB0byBpbmNvcnBvcmF0ZSB0aGUgV09SRC5MU1QgaW50byB0aGVpciBnYW1lcy4gUGxlYXNlCiAgbWVudGlvbiB0aGUgc291cmNlIGFuZCBjcmVkaXQgdXMgYXMgb3JpZ2luYXRvcnMgb2YgdGhlIGxpc3QuIE5vdGUKICB0aGF0IGlmIHlvdSwgYXMgYSBnYW1lIGRlc2lnbmVyLCB1c2UgdGhlIFdPUkQuTFNUIGluIHlvdXIgcHJvZHVjdCwKICB5b3UgbWF5IHN0aWxsIGNvcHlyaWdodCBhbmQgcHJvdGVjdCB5b3VyIHByb2R1Y3QsIGJ1dCB5b3UgbWF5ICpub3QqCiAgbGVnYWxseSBjb3B5cmlnaHQgb3IgaW4gYW55IHdheSByZXN0cmljdCByZWRpc3RyaWJ1dGlvbiBvZiB0aGUKICBXT1JELkxTVCBwb3J0aW9uIG9mIHlvdXIgcHJvZHVjdC4gVGhpcyAqbWF5KiB1bmRlciBsYXcgcmVzdHJpY3QgeW91cgogIHJpZ2h0cyB0byByZXN0cmljdCB5b3VyIHVzZXJzJyByaWdodHMsIGJ1dCB0aGF0IGlzIG9ubHkgZmFpci4KClVLQUNELCBieSBKIFJvc3MgQmVyZXNmb3JkIDxyb3NzQGJyeXNvbi5kZW1vbi5jby51az4sIGlzIHVuZGVyIHRoZQpmb2xsb3dpbmcgY29weXJpZ2h0OgoKICBDb3B5cmlnaHQgKGMpIEogUm9zcyBCZXJlc2ZvcmQgMTk5My0xOTk5LiBBbGwgUmlnaHRzIFJlc2VydmVkLgoKICBUaGUgZm9sbG93aW5nIHJlc3RyaWN0aW9uIGlzIHBsYWNlZCBvbiB0aGUgdXNlIG9mIHRoaXMgcHVibGljYXRpb246CiAgaWYgVGhlIFVLIEFkdmFuY2VkIENyeXB0aWNzIERpY3Rpb25hcnkgaXMgdXNlZCBpbiBhIHNvZnR3YXJlIHBhY2thZ2UKICBvciByZWRpc3RyaWJ1dGVkIGluIGFueSBmb3JtLCB0aGUgY29weXJpZ2h0IG5vdGljZSBtdXN0IGJlCiAgcHJvbWluZW50bHkgZGlzcGxheWVkIGFuZCB0aGUgdGV4dCBvZiB0aGlzIGRvY3VtZW50IG11c3QgYmUgaW5jbHVkZWQKICB2ZXJiYXRpbS4KCiAgVGhlcmUgYXJlIG5vIG90aGVyIHJlc3RyaWN0aW9uczogSSB3b3VsZCBsaWtlIHRvIHNlZSB0aGUgbGlzdAogIGRpc3RyaWJ1dGVkIGFzIHdpZGVseSBhcyBwb3NzaWJsZS4KClRoZSA5NSBsZXZlbCBpbmNsdWRlcyB0aGUgMzU0LDk4NCBzaW5nbGUgd29yZHMsIDI1Niw3NzIgY29tcG91bmQKd29yZHMsIDQsOTQ2IGZlbWFsZSBuYW1lcyBhbmQgdGhlIDMsODk3IG1hbGUgbmFtZXMsIGFuZCAyMSw5ODYgbmFtZXMKZnJvbSB0aGUgTVdvcmRzIHBhY2thZ2UsIEFCTEUuTFNUIGZyb20gdGhlIEVOQUJMRSBTdXBwbGVtZW50LCBhbmQgc29tZQphZGRpdGlvbmFsIHdvcmRzIGZvdW5kIGluIG15IHBhcnQtb2Ytc3BlZWNoIGRhdGFiYXNlIHRoYXQgd2VyZSBub3QKZm91bmQgYW55d2hlcmUgZWxzZS4KCkFjY2VudCBpbmZvcm1hdGlvbiB3YXMgdGFrZW4gZnJvbSBVS0FDRC4KClRoZSBWYXJDb24gcGFja2FnZSB3YXMgdXNlZCB0byBjcmVhdGUgdGhlIEFtZXJpY2FuLCBCcml0aXNoLCBDYW5hZGlhbiwKYW5kIEF1c3RyYWxpYW4gd29yZCBsaXN0LiAgSXQgaXMgdW5kZXIgdGhlIGZvbGxvd2luZyBjb3B5cmlnaHQ6CgogIENvcHlyaWdodCAyMDAwLTIwMTYgYnkgS2V2aW4gQXRraW5zb24KCiAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgZGlzdHJpYnV0ZSBhbmQgc2VsbCB0aGlzIGFycmF5LCB0aGUKICBhc3NvY2lhdGVkIHNvZnR3YXJlLCBhbmQgaXRzIGRvY3VtZW50YXRpb24gZm9yIGFueSBwdXJwb3NlIGlzIGhlcmVieQogIGdyYW50ZWQgd2l0aG91dCBmZWUsIHByb3ZpZGVkIHRoYXQgdGhlIGFib3ZlIGNvcHlyaWdodCBub3RpY2UgYXBwZWFycwogIGluIGFsbCBjb3BpZXMgYW5kIHRoYXQgYm90aCB0aGF0IGNvcHlyaWdodCBub3RpY2UgYW5kIHRoaXMgcGVybWlzc2lvbgogIG5vdGljZSBhcHBlYXIgaW4gc3VwcG9ydGluZyBkb2N1bWVudGF0aW9uLiBLZXZpbiBBdGtpbnNvbiBtYWtlcyBubwogIHJlcHJlc2VudGF0aW9ucyBhYm91dCB0aGUgc3VpdGFiaWxpdHkgb2YgdGhpcyBhcnJheSBmb3IgYW55CiAgcHVycG9zZS4gSXQgaXMgcHJvdmlkZWQgImFzIGlzIiB3aXRob3V0IGV4cHJlc3Mgb3IgaW1wbGllZCB3YXJyYW50eS4KCiAgQ29weXJpZ2h0IDIwMTYgYnkgQmVuamFtaW4gVGl0emUKCiAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgZGlzdHJpYnV0ZSBhbmQgc2VsbCB0aGlzIGFycmF5LCB0aGUKICBhc3NvY2lhdGVkIHNvZnR3YXJlLCBhbmQgaXRzIGRvY3VtZW50YXRpb24gZm9yIGFueSBwdXJwb3NlIGlzIGhlcmVieQogIGdyYW50ZWQgd2l0aG91dCBmZWUsIHByb3ZpZGVkIHRoYXQgdGhlIGFib3ZlIGNvcHlyaWdodCBub3RpY2UgYXBwZWFycwogIGluIGFsbCBjb3BpZXMgYW5kIHRoYXQgYm90aCB0aGF0IGNvcHlyaWdodCBub3RpY2UgYW5kIHRoaXMgcGVybWlzc2lvbgogIG5vdGljZSBhcHBlYXIgaW4gc3VwcG9ydGluZyBkb2N1bWVudGF0aW9uLiBCZW5qYW1pbiBUaXR6ZSBtYWtlcyBubwogIHJlcHJlc2VudGF0aW9ucyBhYm91dCB0aGUgc3VpdGFiaWxpdHkgb2YgdGhpcyBhcnJheSBmb3IgYW55CiAgcHVycG9zZS4gSXQgaXMgcHJvdmlkZWQgImFzIGlzIiB3aXRob3V0IGV4cHJlc3Mgb3IgaW1wbGllZCB3YXJyYW50eS4KCiAgU2luY2UgdGhlIG9yaWdpbmFsIHdvcmRzIGxpc3RzIGNvbWUgZnJvbSB0aGUgSXNwZWxsIGRpc3RyaWJ1dGlvbjoKCiAgQ29weXJpZ2h0IDE5OTMsIEdlb2ZmIEt1ZW5uaW5nLCBHcmFuYWRhIEhpbGxzLCBDQQogIEFsbCByaWdodHMgcmVzZXJ2ZWQuCgogIFJlZGlzdHJpYnV0aW9uIGFuZCB1c2UgaW4gc291cmNlIGFuZCBiaW5hcnkgZm9ybXMsIHdpdGggb3Igd2l0aG91dAogIG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucwogIGFyZSBtZXQ6CgogIDEuIFJlZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUgYWJvdmUgY29weXJpZ2h0CiAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyLgogIDIuIFJlZGlzdHJpYnV0aW9ucyBpbiBiaW5hcnkgZm9ybSBtdXN0IHJlcHJvZHVjZSB0aGUgYWJvdmUgY29weXJpZ2h0CiAgICAgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlIGZvbGxvd2luZyBkaXNjbGFpbWVyIGluIHRoZQogICAgIGRvY3VtZW50YXRpb24gYW5kL29yIG90aGVyIG1hdGVyaWFscyBwcm92aWRlZCB3aXRoIHRoZSBkaXN0cmlidXRpb24uCiAgMy4gQWxsIG1vZGlmaWNhdGlvbnMgdG8gdGhlIHNvdXJjZSBjb2RlIG11c3QgYmUgY2xlYXJseSBtYXJrZWQgYXMKICAgICBzdWNoLiAgQmluYXJ5IHJlZGlzdHJpYnV0aW9ucyBiYXNlZCBvbiBtb2RpZmllZCBzb3VyY2UgY29kZQogICAgIG11c3QgYmUgY2xlYXJseSBtYXJrZWQgYXMgbW9kaWZpZWQgdmVyc2lvbnMgaW4gdGhlIGRvY3VtZW50YXRpb24KICAgICBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi4KICAoY2xhdXNlIDQgcmVtb3ZlZCB3aXRoIHBlcm1pc3Npb24gZnJvbSBHZW9mZiBLdWVubmluZykKICA1LiBUaGUgbmFtZSBvZiBHZW9mZiBLdWVubmluZyBtYXkgbm90IGJlIHVzZWQgdG8gZW5kb3JzZSBvciBwcm9tb3RlCiAgICAgcHJvZHVjdHMgZGVyaXZlZCBmcm9tIHRoaXMgc29mdHdhcmUgd2l0aG91dCBzcGVjaWZpYyBwcmlvcgogICAgIHdyaXR0ZW4gcGVybWlzc2lvbi4KCiAgVEhJUyBTT0ZUV0FSRSBJUyBQUk9WSURFRCBCWSBHRU9GRiBLVUVOTklORyBBTkQgQ09OVFJJQlVUT1JTIGBgQVMgSVMnJyBBTkQKICBBTlkgRVhQUkVTUyBPUiBJTVBMSUVEIFdBUlJBTlRJRVMsIElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBUSEUKICBJTVBMSUVEIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZIEFORCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRQogIEFSRSBESVNDTEFJTUVELiAgSU4gTk8gRVZFTlQgU0hBTEwgR0VPRkYgS1VFTk5JTkcgT1IgQ09OVFJJQlVUT1JTIEJFIExJQUJMRQogIEZPUiBBTlkgRElSRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZLCBPUiBDT05TRVFVRU5USUFMCiAgREFNQUdFUyAoSU5DTFVESU5HLCBCVVQgTk9UIExJTUlURUQgVE8sIFBST0NVUkVNRU5UIE9GIFNVQlNUSVRVVEUgR09PRFMKICBPUiBTRVJWSUNFUzsgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikKICBIT1dFVkVSIENBVVNFRCBBTkQgT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJBQ1QsIFNUUklDVAogIExJQUJJTElUWSwgT1IgVE9SVCAoSU5DTFVESU5HIE5FR0xJR0VOQ0UgT1IgT1RIRVJXSVNFKSBBUklTSU5HIElOIEFOWSBXQVkKICBPVVQgT0YgVEhFIFVTRSBPRiBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GCiAgU1VDSCBEQU1BR0UuCgpCdWlsZCBEYXRlOiBNb24gRGVjICA3IDIwOjE5OjI5IEVTVCAyMDIwCldvcmRsaXN0IENvbW1hbmQ6IG1rLWxpc3QgLS1hY2NlbnRzPXN0cmlwIGVuX0dCLWl6ZSA2MAo=
+en_GB-ize Hunspell Dictionary
+Version 2020.12.07
+Mon Dec 7 20:14:35 2020 -0500 [5ef55f9]
+http://wordlist.sourceforge.net
+
+README file for English Hunspell dictionaries derived from SCOWL.
+
+These dictionaries are created using the speller/make-hunspell-dict
+script in SCOWL.
+
+The following dictionaries are available:
+
+  en_US (American)
+  en_CA (Canadian)
+  en_GB-ise (British with "ise" spelling)
+  en_GB-ize (British with "ize" spelling)
+  en_AU (Australian)
+
+  en_US-large
+  en_CA-large
+  en_GB-large (with both "ise" and "ize" spelling)
+  en_AU-large
+
+The normal (non-large) dictionaries correspond to SCOWL size 60 and,
+to encourage consistent spelling, generally only include one spelling
+variant for a word.  The large dictionaries correspond to SCOWL size
+70 and may include multiple spelling for a word when both variants are
+considered almost equal.  The larger dictionaries however (1) have not
+been as carefully checked for errors as the normal dictionaries and
+thus may contain misspelled or invalid words; and (2) contain
+uncommon, yet valid, words that might cause problems as they are
+likely to be misspellings of more common words (for example, "ort" and
+"calender").
+
+To get an idea of the difference in size, here are 25 random words
+only found in the large dictionary for American English:
+
+  Bermejo Freyr's Guenevere Hatshepsut Nottinghamshire arrestment
+  crassitudes crural dogwatches errorless fetial flaxseeds godroon
+  incretion jalapeño's kelpie kishkes neuroglias pietisms pullulation
+  stemwinder stenoses syce thalassic zees
+
+The en_US, en_CA and en_AU are the official dictionaries for Hunspell.
+The en_GB and large dictionaries are made available on an experimental
+basis.  If you find them useful please send me a quick email at
+kevina@gnu.org.
+
+If none of these dictionaries suite you (for example, maybe you want
+the normal dictionary that also includes common variants) additional
+dictionaries can be generated at http://app.aspell.net/create or by
+modifying speller/make-hunspell-dict in SCOWL.  Please do let me know
+if you end up publishing a customized dictionary.
+
+If a word is not found in the dictionary or a word is there you think
+shouldn't be, you can lookup the word up at http://app.aspell.net/lookup
+to help determine why that is.
+
+General comments on these list can be sent directly to me at
+kevina@gnu.org or to the wordlist-devel mailing lists
+(https://lists.sourceforge.net/lists/listinfo/wordlist-devel).  If you
+have specific issues with any of these dictionaries please file a bug
+report at https://github.com/kevina/wordlist/issues.
+
+IMPORTANT CHANGES INTRODUCED In 2016.11.20:
+
+New Australian dictionaries thanks to the work of Benjamin Titze
+(btitze@protonmail.ch).
+
+IMPORTANT CHANGES INTRODUCED IN 2016.04.24:
+
+The dictionaries are now in UTF-8 format instead of ISO-8859-1.  This
+was required to handle smart quotes correctly.
+
+IMPORTANT CHANGES INTRODUCED IN 2016.01.19:
+
+"SET UTF8" was changes to "SET UTF-8" in the affix file as some
+versions of Hunspell do not recognize "UTF8".
+
+ADDITIONAL NOTES:
+
+The NOSUGGEST flag was added to certain taboo words.  While I made an
+honest attempt to flag the strongest taboo words with the NOSUGGEST
+flag, I MAKE NO GUARANTEE THAT I FLAGGED EVERY POSSIBLE TABOO WORD.
+The list was originally derived from Németh László, however I removed
+some words which, while being considered taboo by some dictionaries,
+are not really considered swear words in today's society.
+
+COPYRIGHT, SOURCES, and CREDITS:
+
+The English dictionaries come directly from SCOWL 
+and is thus under the same copyright of SCOWL.  The affix file is
+a heavily modified version of the original english.aff file which was
+released as part of Geoff Kuenning's Ispell and as such is covered by
+his BSD license.  Part of SCOWL is also based on Ispell thus the
+Ispell copyright is included with the SCOWL copyright.
+
+The collective work is Copyright 2000-2018 by Kevin Atkinson as well
+as any of the copyrights mentioned below:
+
+  Copyright 2000-2018 by Kevin Atkinson
+
+  Permission to use, copy, modify, distribute and sell these word
+  lists, the associated scripts, the output created from the scripts,
+  and its documentation for any purpose is hereby granted without fee,
+  provided that the above copyright notice appears in all copies and
+  that both that copyright notice and this permission notice appear in
+  supporting documentation. Kevin Atkinson makes no representations
+  about the suitability of this array for any purpose. It is provided
+  "as is" without express or implied warranty.
+
+Alan Beale <biljir@pobox.com> also deserves special credit as he has,
+in addition to providing the 12Dicts package and being a major
+contributor to the ENABLE word list, given me an incredible amount of
+feedback and created a number of special lists (those found in the
+Supplement) in order to help improve the overall quality of SCOWL.
+
+The 10 level includes the 1000 most common English words (according to
+the Moby (TM) Words II [MWords] package), a subset of the 1000 most
+common words on the Internet (again, according to Moby Words II), and
+frequently class 16 from Brian Kelk's "UK English Wordlist
+with Frequency Classification".
+
+The MWords package was explicitly placed in the public domain:
+
+    The Moby lexicon project is complete and has
+    been place into the public domain. Use, sell,
+    rework, excerpt and use in any way on any platform.
+
+    Placing this material on internal or public servers is
+    also encouraged. The compiler is not aware of any
+    export restrictions so freely distribute world-wide.
+
+    You can verify the public domain status by contacting
+
+    Grady Ward
+    3449 Martha Ct.
+    Arcata, CA  95521-4884
+
+    grady@netcom.com
+    grady@northcoast.com
+
+The "UK English Wordlist With Frequency Classification" is also in the
+Public Domain:
+
+  Date: Sat, 08 Jul 2000 20:27:21 +0100
+  From: Brian Kelk <Brian.Kelk@cl.cam.ac.uk>
+
+  > I was wondering what the copyright status of your "UK English
+  > Wordlist With Frequency Classification" word list as it seems to
+  > be lacking any copyright notice.
+
+  There were many many sources in total, but any text marked
+  "copyright" was avoided. Locally-written documentation was one
+  source. An earlier version of the list resided in a filespace called
+  PUBLIC on the University mainframe, because it was considered public
+  domain.
+
+  Date: Tue, 11 Jul 2000 19:31:34 +0100
+
+  > So are you saying your word list is also in the public domain?
+
+  That is the intention.
+
+The 20 level includes frequency classes 7-15 from Brian's word list.
+
+The 35 level includes frequency classes 2-6 and words appearing in at
+least 11 of 12 dictionaries as indicated in the 12Dicts package.  All
+words from the 12Dicts package have had likely inflections added via
+my inflection database.
+
+The 12Dicts package and Supplement is in the Public Domain.
+
+The WordNet database, which was used in the creation of the
+Inflections database, is under the following copyright:
+
+  This software and database is being provided to you, the LICENSEE,
+  by Princeton University under the following license.  By obtaining,
+  using and/or copying this software and database, you agree that you
+  have read, understood, and will comply with these terms and
+  conditions.:
+
+  Permission to use, copy, modify and distribute this software and
+  database and its documentation for any purpose and without fee or
+  royalty is hereby granted, provided that you agree to comply with
+  the following copyright notice and statements, including the
+  disclaimer, and that the same appear on ALL copies of the software,
+  database and documentation, including modifications that you make
+  for internal use or for distribution.
+
+  WordNet 1.6 Copyright 1997 by Princeton University.  All rights
+  reserved.
+
+  THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON
+  UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+  IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON
+  UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT-
+  ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE
+  LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY
+  THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+
+  The name of Princeton University or Princeton may not be used in
+  advertising or publicity pertaining to distribution of the software
+  and/or database.  Title to copyright in this software, database and
+  any associated documentation shall at all times remain with
+  Princeton University and LICENSEE agrees to preserve same.
+
+The 40 level includes words from Alan's 3esl list found in version 4.0
+of his 12dicts package.  Like his other stuff the 3esl list is also in the
+public domain.
+
+The 50 level includes Brian's frequency class 1, words appearing
+in at least 5 of 12 of the dictionaries as indicated in the 12Dicts
+package, and uppercase words in at least 4 of the previous 12
+dictionaries.  A decent number of proper names is also included: The
+top 1000 male, female, and Last names from the 1990 Census report; a
+list of names sent to me by Alan Beale; and a few names that I added
+myself.  Finally a small list of abbreviations not commonly found in
+other word lists is included.
+
+The name files form the Census report is a government document which I
+don't think can be copyrighted.
+
+The file special-jargon.50 uses common.lst and word.lst from the
+"Unofficial Jargon File Word Lists" which is derived from "The Jargon
+File".  All of which is in the Public Domain.  This file also contain
+a few extra UNIX terms which are found in the file "unix-terms" in the
+special/ directory.
+
+The 55 level includes words from Alan's 2of4brif list found in version
+4.0 of his 12dicts package.  Like his other stuff the 2of4brif is also
+in the public domain.
+
+The 60 level includes all words appearing in at least 2 of the 12
+dictionaries as indicated by the 12Dicts package.
+
+The 70 level includes Brian's frequency class 0 and the 74,550 common
+dictionary words from the MWords package.  The common dictionary words,
+like those from the 12Dicts package, have had all likely inflections
+added.  The 70 level also included the 5desk list from version 4.0 of
+the 12Dics package which is in the public domain.
+
+The 80 level includes the ENABLE word list, all the lists in the
+ENABLE supplement package (except for ABLE), the "UK Advanced Cryptics
+Dictionary" (UKACD), the list of signature words from the YAWL package,
+and the 10,196 places list from the MWords package.
+
+The ENABLE package, mainted by M\Cooper <thegrendel@theriver.com>,
+is in the Public Domain:
+
+  The ENABLE master word list, WORD.LST, is herewith formally released
+  into the Public Domain. Anyone is free to use it or distribute it in
+  any manner they see fit. No fee or registration is required for its
+  use nor are "contributions" solicited (if you feel you absolutely
+  must contribute something for your own peace of mind, the authors of
+  the ENABLE list ask that you make a donation on their behalf to your
+  favorite charity). This word list is our gift to the Scrabble
+  community, as an alternate to "official" word lists. Game designers
+  may feel free to incorporate the WORD.LST into their games. Please
+  mention the source and credit us as originators of the list. Note
+  that if you, as a game designer, use the WORD.LST in your product,
+  you may still copyright and protect your product, but you may *not*
+  legally copyright or in any way restrict redistribution of the
+  WORD.LST portion of your product. This *may* under law restrict your
+  rights to restrict your users' rights, but that is only fair.
+
+UKACD, by J Ross Beresford <ross@bryson.demon.co.uk>, is under the
+following copyright:
+
+  Copyright (c) J Ross Beresford 1993-1999. All Rights Reserved.
+
+  The following restriction is placed on the use of this publication:
+  if The UK Advanced Cryptics Dictionary is used in a software package
+  or redistributed in any form, the copyright notice must be
+  prominently displayed and the text of this document must be included
+  verbatim.
+
+  There are no other restrictions: I would like to see the list
+  distributed as widely as possible.
+
+The 95 level includes the 354,984 single words, 256,772 compound
+words, 4,946 female names and the 3,897 male names, and 21,986 names
+from the MWords package, ABLE.LST from the ENABLE Supplement, and some
+additional words found in my part-of-speech database that were not
+found anywhere else.
+
+Accent information was taken from UKACD.
+
+The VarCon package was used to create the American, British, Canadian,
+and Australian word list.  It is under the following copyright:
+
+  Copyright 2000-2016 by Kevin Atkinson
+
+  Permission to use, copy, modify, distribute and sell this array, the
+  associated software, and its documentation for any purpose is hereby
+  granted without fee, provided that the above copyright notice appears
+  in all copies and that both that copyright notice and this permission
+  notice appear in supporting documentation. Kevin Atkinson makes no
+  representations about the suitability of this array for any
+  purpose. It is provided "as is" without express or implied warranty.
+
+  Copyright 2016 by Benjamin Titze
+
+  Permission to use, copy, modify, distribute and sell this array, the
+  associated software, and its documentation for any purpose is hereby
+  granted without fee, provided that the above copyright notice appears
+  in all copies and that both that copyright notice and this permission
+  notice appear in supporting documentation. Benjamin Titze makes no
+  representations about the suitability of this array for any
+  purpose. It is provided "as is" without express or implied warranty.
+
+  Since the original words lists come from the Ispell distribution:
+
+  Copyright 1993, Geoff Kuenning, Granada Hills, CA
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+  3. All modifications to the source code must be clearly marked as
+     such.  Binary redistributions based on modified source code
+     must be clearly marked as modified versions in the documentation
+     and/or other materials provided with the distribution.
+  (clause 4 removed with permission from Geoff Kuenning)
+  5. The name of Geoff Kuenning may not be used to endorse or promote
+     products derived from this software without specific prior
+     written permission.
+
+  THIS SOFTWARE IS PROVIDED BY GEOFF KUENNING AND CONTRIBUTORS ``AS IS'' AND
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED.  IN NO EVENT SHALL GEOFF KUENNING OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+  OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  SUCH DAMAGE.
+
+Build Date: Mon Dec  7 20:19:29 EST 2020
+Wordlist Command: mk-list --accents=strip en_GB-ize 60
