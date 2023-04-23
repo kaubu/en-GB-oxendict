@@ -9,6 +9,8 @@ They seem to have got it from these sites:
 * http://wordlist.aspell.net/
 * https://github.com/en-wl/wordlist
 
+This build is from 7 Dec 2020.
+
 ## More info
 https://en.wikipedia.org/wiki/Oxford_spelling
 https://languagetool.org/insights/post/ise-ize/
